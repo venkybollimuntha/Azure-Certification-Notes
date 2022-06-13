@@ -1,0 +1,126 @@
+Azure Networking:
+-----------------
+	1. Connectivity
+	2. Security
+	3. Delivery
+	4. Monitoring
+
+	1. Connectivity:
+	---------------
+		i) Virtual Network (VNet)
+		ii) Virtual WAN
+		iii) ExpressRoute
+		iv) VPN Gateway
+		v) Azure DNS
+		vi) Peering
+		vii) Bastion
+
+	2. Security:
+	------------
+		i) Network Security Groups (NSG)
+		ii) Azure Private Link
+		iii) DDoS Protection
+		iv) Azure Firewall
+		v) Web Application Firewall (WAF)
+		vi) Virtual Network Endpoints
+
+	3. Delivery:
+	------------
+		i) CDN
+		ii) Azure Front Door
+		iii) Traffic Manager
+		iv) Application Gateway
+		v) Load Balancer
+
+	4. Monitoring:
+	--------------
+		i) Network Watcher
+		ii) ExpressRoute Monitor
+		iii) Azure Monitor
+		iv) VNet Terminal Access Point (TAP)
+
+Basic Concepts of Account & Subscription:
+----------------------------------------
+	1. Account
+	2. Tenant
+	3. Subscription
+	4. Resource Group
+
+	1. Account / User
+	-----------------
+	A person or programming 
+		person -- venky@example.com (username, password, MFA)
+
+	App -- Managed Identity (Represents a program or Service)
+
+	2. Tenant: (Organization)
+	----------
+		1. usually represented by public domain name i.e example.com
+		2. will be assign a domain if not specified i.e example.onmicrosoft.com
+		3. A dedicated instance of Azure Directory
+		4. Every Azure account is part of at least one tenant
+
+	3. Subscriptions:
+	----------------
+	Agreement with microsoft to use Azure Services
+
+		1. Free Subscription
+		2. Pay-as-you-go
+		3. Enterprise agreements
+
+		****NOTE: 
+				1. Not every tenant needs to have a subscription
+				2. Tenants can have more than one subscritpion
+				3. More than one account can be owner in a tenant
+				4. Grant an account roles to your tenant
+				5. Accounts can be given read, update, owner rights to resources
+
+
+	4. Resource (An entitiy managed by Azure)
+	------------------
+	Expected: VMs, WebApps, Storage Accounts
+	Unexpected: Public IP, network interaface card, network security group
+
+	5. Resource Group: (A way of separating our projects, keeping unrelated things separate)
+	------------------
+
+		- A folder structure
+		- way of organizing resources in a subscription
+		- All resources belongs to ONLY ONE resource group
+		- Resource groups can be deleted (which delete the resources inside)
+
+Azure Storage:
+--------------
+1. Containers/Blob
+2. file
+3. tables
+4. queue
+
+Storage classes:
+----------------
+1. premium (high storage cost, less access cost) requires for very low latency
+2. Hot (medium storage cost, medium access cost)
+3. Cool (low storage cost, hight access cost)
+4. Archive (rehydrate first, then access)
+
+
+Premium blob types:
+------------------
+1. Block blobs - High performance/transactions per sec and low latency
+2. File shares - Best for enterprise or high performance application that need to scale
+3. page blobs - Best for random read and write operations
+
+
+Services learned till now:
+-------------------------
+1. Virtual Machines
+2. App Services
+3. Container Instances
+4. Kubernetes Services
+5. Backup center
+6. Resource Groups
+7. Templates
+8. Storage accounts
+9. Active Directory
+10. Virtual Network
+11. 

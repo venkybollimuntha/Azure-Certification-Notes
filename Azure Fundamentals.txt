@@ -1,0 +1,138 @@
+Practice Test -1:
+----------------
+
+1. From the Azure portal if you use Azure cloud shell, you can run both Bash and PowerShall based script
+
+2. Yes, you can install PowerShell on MacOS and then run the PowerShell Scripts
+
+3. Azure application Insights - Monitoring production based environments
+
+4. DynamoDB == CosmosDB
+
+5. We can have resources in the same resource group, but different locations
+
+6. Azure Advisor integrates with Microsoft Defender for Cloud to provide Security Recommendations
+
+7. Resource Manager Templates are the ideal solutions when you have to deploy the same type of resources repeatedly
+
+8. Storage classes
+	i) Hot: Frequently accessed data
+	ii) Cool : Infrequently accessed and stored for at least 30 days
+	iii) Archive : Rarely accessed data and stored for at least 180 days (retriving latency may be in hours)
+
+9. Azure Management groups are used for organizing resources in AZure
+
+10. Azure Logic Apps is used to implement a workflow that could be run on a serverless infrastructure
+
+Practice Test 2:
+---------------
+
+1. Azure AD B2B helps to give access to those who dont have an Azure AD account to access resources in Azure
+
+2. Read access Geo Redundant storage Account automatically replicate data to the secondary region.
+
+3. Microsoft Defender for identitiy is a cloud based security solution and built in sensors in Azure.
+
+4. Microsoft Trust Center -- Azure compliance, security, privacy, rules and regulation
+
+5. Azure Security Center -- Unified infrastructure security management system
+
+6. Advisor tool won't give recommendations about tenancy
+
+7**. Azure Resource Manager (ARM templates like AMI in AWS) -- Manage your infrastructure through declarative templates
+
+8. Azure monitor delivers a comprehensive solution for collectiing, analyzing and acting on telmetry from your cloud and on-premise environments
+
+9. Azure traffic Manager is a DNS-based traffic load balancer
+
+10. Public preview are only available upon request to all customers
+
+11. When you deploy a resource to a resource group with a set of permissions defined, the resource will inherit the permissions assigned to the resource group.
+
+12**. Azure Key Valut
+	 - Store the database password in a secure location.
+	- Key Management
+	- Certificate Management
+	- Store Secrets backed by HSM
+
+
+Practice Test 3:
+----------------
+
+1. MSDN is a free support plan and has no linkage with the subscription
+
+2. Azure Databricks -- ability to host a big data analysis service for machine learning
+
+3. Application Insights -- Ability to detect and diagnose anomalies in web apps
+
+4. Azure App Service -- Hosting of web based applications
+
+5. Management Groups -- manage user access to resource across multiple subscriptions
+
+6. Azure Data Lake Analytics -- Transform big data by writing quiries and provide valuable insights
+
+7. IoT Hub -- Secure communication (bi-directional) between IoT applications and its attached devices.
+
+8. IoT Edge -- used to analyze data on End-User services
+
+9. Azure Time Series Insights -- Provide powerful data exploration and telemetry tools to help you refine operational analysis
+
+
+Practice Test 4:
+------------------
+1. The billing for Azure resources is tagged to a subscription.
+
+2. VPN Gateway -- Connect an On-premise data center to an Azure virtual network
+
+
+Practice Test 5:
+----------------
+1. Resource groups have no cost associated with them
+
+2. Data transfer to the Azure center are free
+
+3. Azure Storage -- blobs, files, queues, tables and disks
+
+4. Azure Blueprints -- Role assignments and policy assignments while deploying
+
+5. Azure Event Grid -- easily build applications with event-based architectures
+
+6. Elastic Pools to make more efficient use of the costs when having databases with unpredictable usage demands
+
+7. Azure Cognitive Services -- APIs, SDKs, Services available to help developers build intelligent applications Without having direct AI or data science skills
+
+8. Azure cloud shell needs the following
+	- A resource group
+	- A storage account
+	- A file share
+
+Practice Test 6:
+----------------
+1. Azure Cognitive Service has the following features
+	- Vision
+	- Speech
+	- Language
+	- Decision
+	- Search
+
+2. With Powershell, you can install the Azure Powershell module and work with resources in Azure
+
+3. Azure Blueprints used to orchestrate deployment of various resource templates and architect
+	- Role assignments
+	- Policy assignments
+	- ARM templates
+	- Resource Groups
+
+4. Azure ExpressRoute,Site-to-Site VPN can be used to connect an Azure virutal network to your on premise data center
+
+
+5. Security Support Center:
+	- Only Azure
+	- Azure and On premise
+	- Azure and other clouds
+	-Azure, other clouds, on premise
+
+6. You can club the policy definition into one initiative definition
+
+7. Azure AD Identity Secure Score tells security best practices in Azure
+ 
