@@ -1,0 +1,34 @@
+Scrum 5 Phases:
+--------------
+	- Initiation
+	- Planning and estimation
+	- Implementation
+	- Reviewing
+	- Releasing
+
+Scrum Aspects:
+--------------
+	- Organization, 
+	- Business Justification,
+	- Quality, 
+	- Risk, 
+	- and Change
+
+Scrum Process:
+--------------
+	- Create Deliverabilies
+	- 
+
+Scrum Principles:
+-----------------
+	1. Empirical Process Control 
+	2. Self-organization 
+	3. Collaboration 
+	4. Value-based Prioritization 
+	5. Time-boxing 
+	6. Iterative
+
+Self- Organization:
+-------------------
+emphasizing achieving results by focusing on the needs of the Scrum Team
+
